@@ -10,6 +10,10 @@ namespace EsaFirst
     {
         static void Main(string[] args)
         {
+            //Salute
+            Console.WriteLine("Hello World!");
+            string row = Console.ReadLine();
+            Console.WriteLine("Salute " + row);
         }
     }
 }
