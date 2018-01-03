@@ -10,12 +10,16 @@ namespace EsaFirst
 {
     class Program
     {
-        static void Main(string[] args)
+        static void SayHello()
         {
             //Salute
             Console.WriteLine("Hello World!");
             string row = Console.ReadLine();
             Console.WriteLine("Salute " + row);
+        }
+        static void Main(string[] args)
+        {
+            SayHello();
         }
     }
 }
