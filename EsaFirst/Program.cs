@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 /// <summary>
 /// Esa's Small Test for creating and testing GitHub repository in VS2015 and VS2017
 /// last edit: 4.1.2018
+/// tested in VS2017 4.1.2018
 /// </summary>
 namespace EsaFirst
 {
@@ -14,7 +15,7 @@ namespace EsaFirst
         static void SayHello()
         {
             //Salute
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello a stranger, please give your name:");
             string row = Console.ReadLine();
             Console.WriteLine("Salute " + row);
         }
